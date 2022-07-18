@@ -8,10 +8,7 @@ const authenticate = require("../middleware/authenticate");
 require('../db/conn');
 const User = require("../model/userSchema");
 
-router.get('/', (req, res) => {
-    res.send(`Hello world from the server rotuer js`);
-});
-
+ 
 
 
 // using promises  
